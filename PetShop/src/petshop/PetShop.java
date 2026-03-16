@@ -4,19 +4,16 @@
  * and open the template in the editor.
  */
 package petshop;
-
-/**
- *
- * @author crisf
- */
+import java.util.ArrayList;
+import java.util.Scanner;
 public class PetShop {
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
    
-    private static ArrayList<Dono> listaDonos = new ArrayList<>();
+   
+    private static final ArrayList<Dono> listaDonos = new ArrayList<>();
     private static ArrayList<Animal> listaAnimais = new ArrayList<>();
     private static ArrayList<Atendimento> listaAtendimentos = new ArrayList<>();
     private static Scanner leitor = new Scanner(System.in);
