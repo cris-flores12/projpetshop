@@ -99,7 +99,7 @@ public class PetShop {
         System.out.print("Idade do animal: ");
         int idade = Integer.parseInt(leitor.nextLine());
 
-        System.out.println("Tipo do animal: 1-Cachorro, 2-Gato, 3-Passaro");
+        System.out.println("Tipo do animal: 1-Cachorro, 2-Gato, 3-Passaro ");
         int tipo = Integer.parseInt(leitor.nextLine());
 
         Animal novoAnimal = null;
